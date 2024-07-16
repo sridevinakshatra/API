@@ -24,7 +24,7 @@ public class basicapis {
 				+ "  \"language\": \"French-IN\"\r\n"
 				+ "}\r\n"
 				+ "").when().post("maps/api/place/add/json").then().log().all().assertThat().statusCode(200);
-		System.out.println("Before push");
+		System.out.println("Before pushes");
 	}
 
 }
