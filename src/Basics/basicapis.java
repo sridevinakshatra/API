@@ -26,7 +26,7 @@ public class basicapis {
 				+ "").when().post("maps/api/place/add/json").then().log().all().assertThat().statusCode(200);
 		System.out.println("Before pushes");
 		System.out.println("Before pushes");
-		System.out.println("Before pushes");
+	
 	}
 
 }
